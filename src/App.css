@@ -22,3 +22,58 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  //border: 4px solid red;
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: grey;
+  border: 2px solid black;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.revealed.jump, .matched.jump {
+  background: url("images/jump.jpg") no-repeat center;
+}
+
+.revealed.run, .matched.run {
+  background: url("images/run.jpeg") no-repeat center;
+}
+
+.revealed.cat, .matched.cat {
+  background: url("images/cat.jpeg") no-repeat center;
+}
+
+.revealed.cow, .matched.cow {
+  background: url("images/cow.jpg") no-repeat center;
+}
+
+.revealed.dog, .matched.dog {
+  background: url("images/dog.jpeg") no-repeat center;
+}
+
+.revealed.frog, .matched.frog {
+  background: url("images/frog.jpeg") no-repeat center;
+}
+
+.revealed.play, .matched.play {
+  background: url("images/play.jpeg") no-repeat center;
+}
+
+.revealed.tree, .matched.tree {
+  background: url("images/tree.jpeg") no-repeat center;
+}
